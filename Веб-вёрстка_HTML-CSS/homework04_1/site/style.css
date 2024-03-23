@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #FFF;
+}
+
+.center {
+    margin: auto;
+    width: 1170px;
+}
+
+
+/* шапка сайта */
+
+.header_text {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.active {
+    color: #F25822;
+}
+
+.header_text_red {
+    color: #F25822;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header_link {
+    display: block;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    gap: 40px;
+}
+
+.header_link_red {
+    color: #F25822;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 89px;
+    gap: 500px;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+
+/* основная часть */
+
+.title {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.text {
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+
+.link_button_red {
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px 35px;
+}
+
+.button {
+    display: flex;
+    gap: 108px;
+    align-items: center;
+}
+
+.link_button {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 162px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
