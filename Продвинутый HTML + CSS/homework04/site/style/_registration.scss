@@ -1,0 +1,112 @@
+.registration {
+    margin-top: 64px;
+    &__flex {
+        display: flex;
+        gap: 128px;
+    }
+    &__radio-margin {
+        margin-top: 31px;
+        margin-bottom: 31px;
+        display: flex;
+        gap: 20px;
+        color: rgb(164, 164, 164);
+        ;
+    }
+    &__radio-label {
+        color: rgb(0, 0, 0);
+        font-family: Lato;
+        font-size: 11px;
+        font-weight: 300;
+        line-height: 13px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    &__radio-flex {
+        gap: 10px;
+        display: flex;
+        align-items: center;
+    }
+    &__radio-text {
+        margin-top: 15px;
+        color: rgb(177, 177, 177);
+        font-family: Lato;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.registration-btn {
+    margin-top: 39px;
+    margin-bottom: 96px;
+    &__link {
+        color: rgb(255, 255, 255);
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0%;
+        text-align: left;
+        background: rgb(241, 109, 127);
+        border: 1px solid $colorSecondary;
+        padding: 15px 28px;
+    }
+}
+
+.registration-right {
+    &__subtitle {
+        color: rgb(0, 0, 0);
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    &__margin {
+        margin-bottom: 22px;
+        margin-top: 22px;
+    }
+    &__text {
+        color: rgb(0, 0, 0);
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+        &-margin {
+            margin-bottom: 16px;
+        }
+    }
+    &__check-mark {
+        margin-right: 23px;
+    }
+}
+
+.cart-product__right-input:hover {
+    box-shadow: 0px 5px 10px 0px rgba(97, 97, 97, 0.5);
+    transition: 0.5s;
+}
+
+.cart-product__right-input {
+    outline: none;
+}
+
+.cart-product__right-input:focus {
+    box-shadow: 0px 5px 10px 0px rgba(97, 97, 97, 0.5);
+}
+
+.registration-btn__link:hover {
+    border: 1px solid $colorSecondary;
+    color: $colorSecondary;
+    background: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.registration-btn__link:hover path {
+    fill: $colorSecondary;
+    transition: 0.5s;
+}
