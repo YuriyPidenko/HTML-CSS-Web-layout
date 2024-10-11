@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    margin-top: 40px;
+}
+
+.header {
+    margin-bottom: 89px;
+}
+
+.title {
+    margin-bottom: 17px;
+}
+
+.text {
+    margin-bottom: 52px;
+}
+
+.top__content {
+    margin-bottom: 178px;
+}
+
+.group__logos {
+    padding-top: 97px;
+    padding-bottom: 97px;
+}
