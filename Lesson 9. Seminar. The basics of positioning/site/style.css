@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    /* #020A18 */
+    background: rgb(2, 10, 24);
+    font-family: Open Sans;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1147px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-link {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 22px;
+    line-height: normal;
+    text-decoration: none;
+    padding: 40px 16px;
+
+}
+
+.menu-link:hover {
+    color: #3a68b8;
+}
+
+.header {
+    margin-bottom: 160px;
+}
+
+.subtitle {
+    color: rgb(58, 104, 184);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 130%;
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+.dsc {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-bottom: 65px;
+}
+
+.main-link {
+    border-radius: 5px;
+    /* #3A68B8 */
+    background: rgb(58, 104, 184);
+    padding: 1rem 2rem;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    margin-bottom: 200px;
+}
+
+.logo {
+    margin-bottom: 256px;
+}
+
+.img-right {
+    margin-left: 128px;
+}
+
+.cta-right__subtitle {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 30px;
+}
+
+.cta-right__dsc {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    /* #FFFFFF */
+    opacity: 0.7;
+    margin-bottom: 65px;
+
+}
+
+.cta {
+    margin-bottom: 264px;
+}
+
+.cta-right,
+.cta-left {
+    width: 42%;
+}
+
+.cta-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 362px);
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.item {
+    border-radius: 10px;
+
+    background: rgb(19, 32, 53);
+}
+
+.item4 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.content__img {
+    padding-top: 30px;
+}
+
+.content__subtitle {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 125%;
+    margin: 30px;
+    /* #FFFFFF */
+    opacity: 0.7;
+}
+
+.content__dsc {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    /* #FFFFFF */
+    opacity: 0.7;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.content-item4__margin {
+    margin-bottom: 60px;
+}
+
+.content {
+    margin-bottom: 257px;
+}
+
+.about-subtitle {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.about-dsc {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    text-align: left;
+    /* #FFFFFF */
+    opacity: 0.7;
+    margin-right: 113px;
+}
+
+.about-dsc__margin {
+    margin-bottom: 20px;
+
+}
+
+.about {
+    margin-bottom: 221px;
+}
+
+.footer__subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer__subtitle__indentation {
+    margin-bottom: 33px;
+}
+
+.footer__text {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    gap: 10px;
+}
+
+.footer__text__indentation {
+    margin-bottom: 24px;
+}
+
+.footer__center_text {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 250;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+}
+
+.footer {
+    margin-bottom: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__img {
+    display: flex;
+    gap: 24px;
+}
