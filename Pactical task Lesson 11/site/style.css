@@ -344,7 +344,6 @@ body {
 
     .footer-flex__media {
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
     }
 }
