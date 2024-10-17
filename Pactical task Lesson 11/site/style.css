@@ -351,7 +351,7 @@ body {
 @media (max-width: 767px) {
     .container {
         margin: 0 auto;
-        max-width: 343px;
+        max-width: 362px;
         padding-left: 16px;
         padding-right: 16px;
     }
