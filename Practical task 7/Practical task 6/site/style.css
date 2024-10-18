@@ -263,20 +263,32 @@ body {
     } */
 
     .main-box1 {
-        right: 17%;
+        right: 25%;
+        top: 40%;
     }
 
     .main-box2 {
-        right: 24%;
+        right: 32%;
+        top: 40%;
     }
 
     .main-box3 {
-        right: 25%;
+        right: 31%;
+        top: 40%;
     }
 
     .main-box4 {
-        top: 33%;
-        right: 39%;
+        top: 37%;
+        right: 42%;
     }
 
+    .cards-flex__media {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cards-item {
+        margin-right: 3%;
+    }
 }
