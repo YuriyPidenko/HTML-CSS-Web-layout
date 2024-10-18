@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+summary {
+    display: block;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::before {
+    content: 'Закрыто';
+    padding-right: 0.5em;
+}
+
+details[open]>summary::before {
+    content: 'Открыто';
+}
+
+body {
+    padding-bottom: 350px;
+}
+
+
+
+.video-box {
+    width: 90vw;
+    height: 45vw;
+    position: relative;
+}
+
+.video-heading {
+    color: green;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    z-index: 1;
+}
+
+.video {
+    width: 90vw;
+    height: 45vw;
+    position: absolute;
+}
