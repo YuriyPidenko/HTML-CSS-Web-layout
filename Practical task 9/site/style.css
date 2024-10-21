@@ -94,11 +94,6 @@ body {
     width: 50%;
 }
 
-/* .cover-left,
-.cover-right {
-   
-} */
-
 .cover {
     margin-bottom: 64px;
 }
@@ -229,6 +224,17 @@ body {
     padding: 1rem 2rem;
     text-decoration: none;
     border: 1px solid rgb(242, 99, 118);
+
+}
+
+.transition {
+    transition: all 0.3s;
+}
+
+.cards-link:hover {
+    color: white;
+    background-color: rgb(242, 99, 118);
+
 }
 
 .cards {
@@ -337,6 +343,11 @@ body {
     width: 100px;
 }
 
+.subscribe-btn:hover {
+    background-color: white;
+    color: rgb(224, 92, 110);
+    border: 1px solid rgb(224, 92, 110);
+}
 
 .subscribe-input {
     padding-left: 22px;
@@ -351,6 +362,7 @@ body {
     border: none;
     border-radius: 30px 0 0 30px;
 }
+
 
 .subscribe-form {
     display: flex;
@@ -369,7 +381,6 @@ body {
     line-height: 19px;
     text-align: left;
 }
-
 
 
 @media (max-width: 1024px) {
