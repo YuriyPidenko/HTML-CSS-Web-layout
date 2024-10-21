@@ -1,0 +1,36 @@
+.menu__link {
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: red;
+}
+
+.menu__link:active {
+    color: green;
+}
+
+ul li:first-child {
+    text-decoration: underline;
+}
+
+ul li:last-child {
+    font-weight: bold;
+}
+
+.menu__list:nth-child(3) .menu__link {
+    color: orangered;
+}
+
+.img {
+    width: 150px;
+}
+
+.img:hover path {
+    fill: purple;
+}
+
+
+.img:active path {
+    fill: yellow;
+}
