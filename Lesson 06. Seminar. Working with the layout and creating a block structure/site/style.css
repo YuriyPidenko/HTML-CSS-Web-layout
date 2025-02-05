@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* #020A18 */
+    background: rgb(125, 158, 216);
+}
+
+.header {
+    padding-top: 39px;
+    padding-bottom: 39px;
+    margin-bottom: 160px;
+}
+
+.cover__subtitle {
+    margin-bottom: 10px;
+}
+
+.cover__title {
+    margin-bottom: 40px;
+}
+
+.cover__text {
+    margin-bottom: 65px;
+}
+
+.cover {
+    margin-bottom: 197px;
+}
+
+.cover__logo {
+    margin-bottom: 99px;
+}
