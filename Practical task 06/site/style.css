@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: Lato;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1172px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+}
+
+.header {
+    background-color: rgb(34, 34, 34);
+    padding: 18px 0px;
+}
+
+.header-lift {
+    display: flex;
+    align-items: flex-end;
+    gap: 42px;
+}
+
+.header-right {
+    display: flex;
+    align-items: flex-end;
+    gap: 32px;
+}
+
+.cover-left__img {
+    width: 100%;
+    max-width: 800px;
+}
+
+.cover-title {
+    color: rgb(34, 34, 34);
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+
+}
+
+.cover-flex {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.cover-text {
+    color: rgb(34, 34, 34);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.cover-text_color {
+    color: rgb(241, 109, 127);
+}
+
+.cover-right {
+    padding-left: 16px;
+    border-left: 12px solid rgb(241, 109, 127);
+}
+
+.cover {
+    height: 764px;
+    background: rgb(241, 228, 230);
+    margin-bottom: 64px;
+}
+
+.context__dsc-discounts {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.content__dsc-name {
+    color: rgb(241, 109, 127);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.content-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.content-box {
+    position: relative;
+    display: inline-block;
+}
+
+.content__elem {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.content {
+    margin-bottom: 97px;
+}
+
+.trading-cards__header {
+    color: rgb(34, 34, 34);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.trading-cards__dsc {
+    color: rgb(159, 159, 159);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.cards-box {
+    width: 360px;
+    background: rgb(248, 248, 248);
+    margin-bottom: 30px;
+}
+
+.cards-elem {
+    padding: 25px 28px 20px 16px;
+}
+
+.cards__subtitle {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.cards__text {
+    color: rgb(93, 93, 93);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.cards__text-price {
+    color: rgb(241, 109, 127);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
+.trading-cards {
+    margin-bottom: 109px;
+}
+
+.cards-link {
+    color: rgb(242, 99, 118);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    border: 1px solid rgb(255, 106, 106);
+    padding: 1rem 2rem;
+
+}
+
+.cards-link:hover {
+    color: #fff;
+    background-color: rgb(242, 99, 118);
+}
+
+.cards__margin-bottom {
+    margin-bottom: 33px;
+}
+
+.cards-btn {
+    text-align: center;
+}
