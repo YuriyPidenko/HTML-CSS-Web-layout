@@ -189,6 +189,10 @@ body {
 
 }
 
+.cards-img:hover {
+    filter: brightness(50%);
+}
+
 .cards-link:hover {
     color: #fff;
     background-color: rgb(242, 99, 118);
