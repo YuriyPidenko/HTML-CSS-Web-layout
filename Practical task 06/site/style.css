@@ -43,11 +43,12 @@ body {
     width: 100%;
     max-width: 800px;
     min-width: 384px;
+    height: auto;
 }
 
 .cover-title {
     color: rgb(34, 34, 34);
-    font-size: calc(40px + 8*(100vw - 320px) / 1440);
+    font-size: calc(38px + 10 * (100vw - 320px) / 1440);
     font-weight: 900;
     text-align: left;
 
@@ -61,7 +62,7 @@ body {
 
 .cover-text {
     color: rgb(34, 34, 34);
-    font-size: calc(18px + 14*(100vw - 320px) / 1440);
+    font-size: calc(20px + 12*(100vw - 320px) / 1440);
     font-weight: 700;
     text-align: left;
 }
@@ -85,6 +86,7 @@ body {
     /* max-height: 764px; */
     background: rgb(241, 228, 230);
     margin-bottom: 64px;
+    min-height: 363px;
 }
 
 .context__dsc-discounts {
@@ -114,15 +116,40 @@ body {
 }
 
 .content__elem {
-    min-width: 152px;
+    min-width: 160px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
 }
 
+.content-box__last {
+    background-image: url(img/content-accesories.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    min-height: 111px;
+}
+
 .content {
     margin-bottom: 97px;
+}
+
+.content__img-last {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.content__img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+
 }
 
 .trading-cards__flex {
@@ -203,11 +230,13 @@ body {
 
 .cards-img:hover {
     filter: brightness(50%);
+    transition: .5s ease;
 }
 
 .cards-link:hover {
     color: #fff;
     background-color: rgb(242, 99, 118);
+    transition: .5s ease;
 }
 
 .cards__margin-bottom {
@@ -218,11 +247,42 @@ body {
     text-align: center;
 }
 
+
 .content__img-last {
-    width: 100%;
+    height: 180px;
+    max-width: 100%;
 }
 
-.content__img {
-    width: 100%;
-    max-width: 360px;
+@media (max-width: 767px) {
+    .cover-left {
+        display: none;
+    }
+
+    .cover-right {
+        width: 100%;
+    }
+
+    .cover {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-profile {
+        display: none;
+    }
+
+    .img-basket {
+        display: none;
+    }
+
+    .content-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    .content-box__last {
+        max-width: 360px;
+    }
 }
