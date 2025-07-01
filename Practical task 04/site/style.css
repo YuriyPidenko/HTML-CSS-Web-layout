@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header__img {
+    margin-right: 14px;
+}
+
+.headet-text__logo {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.text__be {
+    color: rgb(242, 88, 34);
+}
+
+.menu-link {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 11px 15px;
+}
+
+.menu-link:hover {
+    color: rgb(242, 88, 34);
+}
+
+.marker {
+    color: rgb(242, 88, 34);
+}
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 82px;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 17px;
+}
+
+.dsc {
+    color: rgb(136, 136, 136);
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 52px;
+}
+
+.main-link1 {
+    color: rgb(255, 255, 255);
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    background: rgb(242, 88, 34);
+    margin-right: 72px;
+}
+
+.main-link2 {
+    color: rgb(170, 170, 170);
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+}
+
+.main-left,
+.main-right {
+    width: 47%;
+}
+
+.main {
+    margin-bottom: 260px;
+}
+
+.main-logo {
+    margin-bottom: 96px;
+}
