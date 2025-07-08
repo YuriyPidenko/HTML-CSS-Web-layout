@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    /* #020A18 */
+    background: rgb(125, 158, 216);
+}
+
+.header {
+    padding-top: 39px;
+    padding-bottom: 39px;
+    margin-bottom: 160px;
+}
+
+.subtitle {
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.dsc {
+    margin-bottom: 65px;
+}
+
+.cover {
+    margin-bottom: 197px;
+}
+
+.cover__logo {
+    margin-bottom: 99px;
+}
