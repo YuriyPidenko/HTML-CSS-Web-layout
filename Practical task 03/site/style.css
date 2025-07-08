@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 84px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.cover-left__title {
+    margin-bottom: 17px;
+}
+
+.cover-left__text {
+    margin-bottom: 52px;
+}
+
+.cover {
+    margin-bottom: 162px;
+}
+
+.cover-logo {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
