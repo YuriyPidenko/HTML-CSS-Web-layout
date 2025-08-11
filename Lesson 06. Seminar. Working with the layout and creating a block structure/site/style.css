@@ -1,0 +1,25 @@
+body {
+    background: rgb(116, 161, 238);
+}
+
+.heade {
+    padding-top: 39px;
+    padding-bottom: 39px;
+    margin-bottom: 199px;
+}
+
+.cover {
+    margin-bottom: 197px;
+}
+
+.subtitle {
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.dsc {
+    margin-bottom: 65px;
+}
