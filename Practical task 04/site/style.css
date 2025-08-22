@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1147px;
+}
+
+
+
+.header__flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header {
+    background: rgba(34, 34, 34, 1);
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+}
+
+.header__right {
+    display: flex;
+    align-items: flex-end;
+    gap: 32px;
+}
+
+.luxury-brand__flex {
+    display: flex;
+    align-items: center;
+    gap: 4%;
+}
+
+.luxury-brand {
+    background: rgba(241, 228, 230, 1);
+}
+
+.luxury-brand__img {
+    width: 100%;
+    max-width: 800px;
+    min-width: 384px;
+    height: auto;
+}
+
+.luxury-brand__left {
+    display: inline-flex;
+}
+
+.luxury-brand__title {
+    color: rgb(34, 34, 34);
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.luxury-brand__title_font-size {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.luxury-brand__title_color {
+    color: rgba(241, 109, 127, 1);
+}
+
+.luxury-brand__box_heading {
+    border-left: 12px solid rgba(241, 109, 127, 1);
+    padding-left: 16px;
+}
