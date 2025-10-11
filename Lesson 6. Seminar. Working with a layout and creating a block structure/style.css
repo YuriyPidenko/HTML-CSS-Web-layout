@@ -1,0 +1,28 @@
+body {
+    background-color: rgba(2, 10, 24, 1);
+}
+
+.header {
+    padding: 39px 0px 39px 0px;
+    margin-bottom: 160px;
+}
+
+.content-left__heade {
+    margin-bottom: 10px;
+}
+
+.content-left__title {
+    margin-bottom: 40px;
+}
+
+.content-left__dsc {
+    margin-bottom: 64px;
+}
+
+.contetn {
+    margin-bottom: 197px;
+}
+
+.footer {
+    margin-bottom: 99px;
+}
