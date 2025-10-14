@@ -92,3 +92,8 @@ body {
 .main {
     margin-bottom: 200px;
 }
+
+.main-right {
+    display: flex;
+    justify-content: end;
+}
