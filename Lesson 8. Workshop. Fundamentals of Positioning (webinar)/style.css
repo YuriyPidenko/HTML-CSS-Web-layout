@@ -65,6 +65,7 @@ body {
     /* 28.8px */
     opacity: 0.7;
     margin-bottom: 50px;
+    max-width: 558px;
 }
 
 .main-link {
@@ -82,18 +83,148 @@ body {
 .flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.main-left,
+/* .main-left,
 .main-right {
     width: 46%;
-}
+} */
 
 .main {
     margin-bottom: 200px;
 }
 
+/* 
 .main-right {
     display: flex;
     justify-content: end;
+} */
+
+.logo {
+    margin-bottom: 157px;
+}
+
+.ai-solution__heading {
+    color: rgba(255, 255, 255, 1);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.ai-solution__dsc {
+    color: rgba(255, 255, 255, 1);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 65px;
+    max-width: 460px;
+}
+
+.ai-solution-left,
+.ai-solution-right {
+    width: 42%;
+}
+
+.ai-solution-block {
+    margin-bottom: 264px;
+}
+
+.cards-box__img {
+    margin-bottom: 30px;
+
+}
+
+.cards-box__heading {
+    color: rgba(255, 255, 255, 1);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+
+.cards-box__dsc {
+    color: rgba(255, 255, 255, 1);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.cards-box {
+    border-radius: 10px;
+    background: rgba(19, 32, 53, 1);
+    padding: 30px;
+    max-width: 362px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.content-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* gap: 30px; */
+}
+
+.card-large {
+    max-width: 754px;
+}
+
+.cards-lager__img,
+.cards-lager__heading {
+    margin-bottom: 60px;
+}
+
+.cards-lager__dsc {
+    margin-bottom: 114px;
+}
+
+.content-cards {
+    margin-bottom: 243px;
+}
+
+.customer-reviews__subtitle {
+    color: rgba(255, 255, 255, 1);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.customer-reviews__dsc {
+    color: rgba(255, 255, 255, 1);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 20px;
+    max-width: 460px;
+}
+
+.customer-reviews {
+    margin-bottom: 221px;
 }
