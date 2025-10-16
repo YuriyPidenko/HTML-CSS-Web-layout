@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 84px;
+}
+
+.header__link {
+    font-family: Gilroy-Bold;
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+    padding: 11px 15px;
+}
+
+.header__link:hover {
+    color: rgb(242, 88, 34);
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img__growbe {
+    margin-left: 14px;
+}
+
+.main__title {
+    color: rgba(0, 0, 0, 1);
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 17px;
+}
+
+.main__dsc {
+    color: rgba(136, 136, 136, 1);
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 52px;
+    width: 466px;
+}
+
+
+.main__btn1 {
+    color: rgb(255, 255, 255);
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    background: rgb(242, 88, 34);
+    border: 1px solid rgb(242, 88, 34);
+    ;
+    margin-right: 40px;
+}
+
+.main__btn2 {
+    padding: 1rem 2rem;
+    color: rgb(170, 170, 170);
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+}
+
+.main__btn1:hover {
+    color: rgb(170, 170, 170);
+    background: #fff;
+    border: 1px solid rgb(170, 170, 170);
+    box-shadow: 4px 4px 8px 0px rgba(170, 170, 170, 0.2);
+}
+
+.main__btn2:hover {
+    color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    background: rgb(242, 88, 34);
+    border: 1px solid rgb(242, 88, 34);
+}
+
+.main-left,
+.main-right {
+    width: 47%;
+}
+
+.main {
+    margin-bottom: 162px;
+}
+
+.logo {
+    padding: 97px 0px;
+}
+
+.cards-top__item {
+    width: 270px;
+}
+
+.cards-top__img {
+    margin-bottom: 25px;
+}
+
+.cards-top__subtitle {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 17px;
+}
+
+.cards-top__dsc {
+    color: rgb(102, 102, 102);
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.cards-top__dsc-about {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.cards-top__item-center {
+    width: 370px;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 40px 30px 25px 30px;
+}
+
+.cards-top {
+    margin-bottom: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.cards-header {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.cards-dsc {
+    color: rgb(102, 102, 102);
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+
+
+
+.cards {
+    background: rgb(250, 250, 250);
+    padding-top: 92px;
+    padding-bottom: 100px;
+}
+
+.cards-subtitle {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.cards-text {
+    color: rgb(170, 170, 170);
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 54px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cards-elem {
+    background: rgb(255, 255, 255);
+    width: 370px;
+    text-align: center;
+    padding-bottom: 65px;
+}
+
+.cards-ele__img {
+    width: 100%;
+}
+
+.box-shadow {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
