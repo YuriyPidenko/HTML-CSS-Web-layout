@@ -74,6 +74,10 @@
     background: rgb(242, 88, 34);
     border: 1px solid rgb(242, 88, 34);
     ;
+
+}
+
+.main__btn_margin {
     margin-right: 40px;
 }
 
