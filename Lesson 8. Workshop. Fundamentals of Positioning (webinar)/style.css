@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 1146px;
+    max-width: 1146px;
     margin: 0 auto;
 }
 
@@ -54,6 +54,7 @@ body {
     line-height: 130%;
     /* 71.5px */
     margin-bottom: 40px;
+    width: 660px;
 }
 
 .dsc {
@@ -82,8 +83,10 @@ body {
 
 .flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 5%;
 }
 
 /* .main-left,
@@ -100,6 +103,10 @@ body {
     display: flex;
     justify-content: end;
 } */
+.logo-flex {
+    display: flex;
+    gap: 6%;
+}
 
 .logo {
     margin-bottom: 157px;
@@ -129,9 +136,9 @@ body {
     max-width: 460px;
 }
 
-.ai-solution-left,
+
 .ai-solution-right {
-    width: 42%;
+    max-width: 484px;
 }
 
 .ai-solution-block {
@@ -174,14 +181,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
+}
+
+.cards-box__box_flex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .content-flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    /* gap: 30px; */
+    gap: 30px;
 }
 
 .card-large {
@@ -210,6 +222,7 @@ body {
     letter-spacing: 0%;
     text-align: left;
     margin-bottom: 40px;
+    width: 515px;
 }
 
 .customer-reviews__dsc {
@@ -227,4 +240,103 @@ body {
 
 .customer-reviews {
     margin-bottom: 221px;
+}
+
+.footer__heading {
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 33px;
+}
+
+.footer__dsc {
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer__dsc_margin {
+    margin-bottom: 24px;
+
+
+}
+
+.footer-box__center__text {
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.6;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 250;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 261px;
+}
+
+.footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.footer-img {
+    margin-right: 24px;
+}
+
+.footer__svg {
+    margin-right: 10px;
+}
+
+@media(max-width: 1024px) {
+    body {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .main-left {
+        margin-bottom: 128px;
+    }
+
+    .ai-solution-left {
+        margin-bottom: 68px;
+    }
+
+    .logo-flex {
+        gap: 32px;
+    }
+
+    .media__display_none {
+        display: none;
+    }
+
+    .content-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .customer-reviews-left {
+        margin-bottom: 64px;
+    }
+
+    .footer-box__center {
+        margin-left: 110px;
+    }
+
+    .footer-flex {
+        justify-content: flex-start;
+    }
+
+    .footer-box__left {
+        margin-bottom: 35px;
+    }
 }
