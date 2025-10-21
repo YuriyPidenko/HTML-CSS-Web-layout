@@ -297,6 +297,10 @@ body {
     margin-right: 10px;
 }
 
+.footer-flex {
+    justify-content: space-between;
+}
+
 @media(max-width: 1024px) {
     body {
         padding-left: 40px;
