@@ -86,3 +86,138 @@
     border-left: 12px solid rgba(241, 109, 127, 1);
     padding-left: 16px;
 }
+
+.categories__dsc {
+    color: rgba(255, 255, 255, 1);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.categories__subtitle {
+    color: rgba(241, 109, 127, 1);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.categories-bloc {
+    position: relative;
+    max-width: 360px;
+    max-height: 260px;
+    overflow: hidden;
+}
+
+.categories-bloc__bottom {
+    position: relative;
+    max-width: 1140px;
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.categories__text-bloc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.categories__img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.categories {
+    margin-bottom: 97px;
+}
+
+.product-cards__heading {
+    color: rgba(34, 34, 34, 1);
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.product-cards__dsc {
+    color: rgba(159, 159, 159, 1);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+.product-box {
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product-box-text {
+    background: rgba(248, 248, 248, 1);
+    padding: 25px 28px 20px 18px;
+}
+
+.product-box__cards-name {
+    color: rgba(0, 0, 0, 1);
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.product-box__cards-description {
+    color: rgba(93, 93, 93, 1);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.product-box__cards-price {
+    color: rgba(241, 109, 127, 1);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
+.product-btn {
+    text-decoration: none;
+    color: rgba(242, 99, 118, 1);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    border: 1px solid rgba(255, 106, 106, 1);
+    padding: 1rem 2rem;
+    margin-top: 33px;
+    margin-bottom: 109px;
+    transition: all 0.3s;
+}
+
+.product-btn:hover {
+    color: white;
+    background-color: rgba(255, 106, 106, 1);
+}
