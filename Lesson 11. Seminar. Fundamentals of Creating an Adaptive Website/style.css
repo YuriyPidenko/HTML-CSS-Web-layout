@@ -202,6 +202,10 @@
     text-align: left;
 }
 
+.product-cards__margin {
+    margin-bottom: 63px;
+}
+
 .product-btn {
     text-decoration: none;
     color: rgba(242, 99, 118, 1);
@@ -209,15 +213,17 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    text-align: center;
     border: 1px solid rgba(255, 106, 106, 1);
     padding: 1rem 2rem;
-    margin-top: 33px;
-    margin-bottom: 109px;
+    background-color: white;
     transition: all 0.3s;
 }
 
 .product-btn:hover {
     color: white;
     background-color: rgba(255, 106, 106, 1);
+}
+
+.product-cards {
+    margin-bottom: 109px;
 }
