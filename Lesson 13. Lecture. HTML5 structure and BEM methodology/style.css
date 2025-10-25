@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-bottom: 500px;
+}
+
+summary {
+    display: block;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::before {
+    content: "закрыть";
+    padding-right: 0.5em;
+}
+
+details[open]>summary::before {
+    content: "открыть";
+}
+
+.video-box {
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+}
+
+.video-heading {
+    color: white;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    z-index: 5;
+}
+
+.video {
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+}
