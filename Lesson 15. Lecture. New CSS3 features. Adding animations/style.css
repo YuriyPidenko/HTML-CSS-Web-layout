@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #071121;
+}
+
+.container {
+    max-width: 1146px;
+    margin: 0 auto;
+}
+
+
+.menu-link {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 16px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-link:hover {
+    color: #3A68B8;
+}
+
+.menu-link:active {
+    color: redd;
+}
+
+.menu-link:first-child {
+    text-decoration: underline;
+}
+
+.menu-link:last-child {
+    border-right: 1px solid orange;
+    padding-right: 32px;
+}
+
+.menu-link:nth-child(2n) {
+    background-color: #ccc;
+}
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 160px;
+}
+
+.text {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    /* 28.8px */
+    opacity: 0.7;
+    max-width: 558px;
+}
+
+.list__item-new::after {
+    content: ' new!';
+    color: red;
+}
+
+.list__item:hover::after {
+    content: ' <<';
+    color: orange;
+}
+
+.list {
+    margin-bottom: 55px;
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icon:hover path {
+    fill: aquamarine;
+}
+
+.button {
+    text-decoration: none;
+    display: block;
+    width: 190px;
+    height: 60px;
+    border: 1px solid purple;
+    text-align: center;
+    line-height: 60px;
+    color: purple;
+    margin-top: 16px;
+    transition: all 0.4s;
+}
+
+.button:hover {
+    background-color: purple;
+    color: white;
+}
+
+.drive {
+    margin-top: 132px;
+    margin-bottom: 150px;
+}
+
+.drive:hover .car {
+    margin-left: 1000px;
+}
+
+.car {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #c69c9c;
+    transition: margin 3s;
+    color: wheat;
+}
+
+.car-1 {
+    transition-timing-function: ease;
+}
+
+.car-2 {
+    transition-timing-function: ease-in;
+}
+
+.car-3 {
+    transition-timing-function: ease-out;
+}
+
+.car-4 {
+    transition-timing-function: ease-in-out;
+}
+
+.car-5 {
+    transition-timing-function: linear;
+}
+
+.bord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+
+.bord {
+    height: 400px;
+    position: relative;
+}
+
+
+
+.bord__item {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #9de3a1;
+    color: #9de3a1;
+    transition: transform 1s;
+}
+
+.bord__item-1 {
+    transform: skew(15deg);
+}
+
+.bord__item-1:hover {
+    transform: rotate(60deg);
+}
+
+.bord__item-2:hover {
+    transform: translateY(-30px) scale(1.3);
+}
+
+.bord__item-3:hover {
+    transform: translate(-200px, -30px) scale(1.3);
+}
+
+.bord-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    height: 400px;
+    position: relative;
+}
+
+.bord__item_k {
+    position: absolute;
+    width: 150px;
+    height: 86px;
+    background-color: forestgreen;
+}
+
+.bord__item-4 {
+    transform: rotate(60deg);
+}
+
+.bord__item-6 {
+    transform: rotate(-60deg);
+}
