@@ -490,4 +490,8 @@
         flex-direction: column-reverse;
         gap: 40px;
     }
+
+    .footer {
+        padding: 43px 32px 9px 32px;
+    }
 }
