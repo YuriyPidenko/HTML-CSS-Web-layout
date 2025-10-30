@@ -17,13 +17,13 @@
     padding-right: 10px;
 }
 
-.footer-flex {
+.header-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.footer {
+.header {
     background: rgba(34, 34, 34, 1);
     padding-top: 18px;
     padding-bottom: 18px;
@@ -31,12 +31,12 @@
     padding-left: 32px;
 }
 
-.footer-left {
+.header-left {
     display: flex;
     gap: 41px;
 }
 
-.footer-right {
+.header-right {
     display: flex;
     gap: 32px;
 }
@@ -255,6 +255,173 @@
     margin-bottom: 109px;
 }
 
+.advantages {
+    background-color: rgba(34, 34, 36, 1);
+    padding-top: 104px;
+    padding-bottom: 104px;
+}
+
+.advantages-box {
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages__subtitle {
+    color: rgba(251, 251, 251, 1);
+    font-family: Lato;
+    font-size: 19.96px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.advantages__img {
+    margin-bottom: 25px;
+}
+
+.advantages__dsc {
+    color: rgba(251, 251, 251, 1);
+    font-family: Lato;
+    font-size: 13.97px;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.advantages-flex {
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.subscribe {
+    background-image: url(img/subscribe-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 448px;
+}
+
+.subscribe-left__dsc {
+    color: rgba(34, 34, 36, 1);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: undefined;
+    line-height: 24px;
+    text-align: center;
+    width: 360px;
+}
+
+.subscribe-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe-left__img {
+    margin-bottom: 32px;
+}
+
+.subscribe-right__heading {
+    color: rgba(34, 34, 36, 1);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 167.2%;
+}
+
+.subscribe-right__dsc {
+    color: rgba(34, 34, 36, 1);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.subscribe-right__email {
+    padding-left: 22px;
+    border: 1px solid rgba(225, 225, 225, 1);
+    ;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 200px;
+    height: 49px;
+    background: rgba(225, 225, 225, 1);
+}
+
+.subscribe-right__email::placeholder {
+    color: rgba(34, 34, 36, 1);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+}
+
+.subscribe-right__button {
+    width: 100px;
+    height: 49px;
+    background: rgba(241, 109, 127, 1);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid rgba(241, 109, 127, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.subscribe-right__button:hover {
+    color: rgba(241, 109, 127, 1);
+    background-color: white;
+}
+
+.subscribe-right__form {
+    display: flex;
+}
+
+.subscribe {
+    padding-top: 86px;
+}
+
+.subscribe-flex {
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.footer {
+    background: rgba(34, 34, 36, 1);
+    padding: 24px 32px;
+}
+
+.footer-text {
+    color: rgba(251, 251, 251, 1);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
+.footer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-right {
+    display: flex;
+    gap: 7px;
+}
+
 @media (max-width: 1024px) {
     .flex {
         gap: 20px;
@@ -263,6 +430,28 @@
     .categories-bloc__top {
         gap: 20px;
     }
+
+    .advantages-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .advantages {
+        padding-top: 48px;
+        padding-bottom: 64px
+    }
+
+    .subscribe-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .subscribe-right {
+        padding-bottom: 219px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -295,5 +484,10 @@
 
     .categories__img-bottom {
         max-width: 360px;
+    }
+
+    .footer-flex {
+        flex-direction: column-reverse;
+        gap: 40px;
     }
 }
