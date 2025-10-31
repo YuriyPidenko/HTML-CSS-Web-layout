@@ -1,0 +1,17 @@
+.text-color {
+    color: red;
+}
+
+.nav-background {
+    background-color: gray;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+    justify-content: center;
+}
+
+.product-box {
+    gap: 32px;
+}
