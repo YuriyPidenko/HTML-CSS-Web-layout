@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+    /* скрол сайта плавней */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    background-color: #ccc;
+}
+
+main {
+    background-color: gold;
+}
+
+footer {
+    background-color: rosybrown;
+}
